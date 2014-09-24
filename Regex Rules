@@ -1,0 +1,13 @@
+Some Regex Rules for grabbing formatting. Assumes case insensitive, unless otherwise noted.
+
+;Grabs all Equations
+\(.*\+.*\)
+
+;Grabs all Dice
+\d+d\d+
+
+;Grabs "s" seconds note.
+(?<=\d+)s\b
+
+;Grabs "sq" squares note.
+(?<=\d+)sq\b
