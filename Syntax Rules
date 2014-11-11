@@ -1,0 +1,81 @@
+Variables
+  <> - any listed variable
+  || - optinal segment
+  {} - required segment
+  / - when within above two, represents a choice.
+-----------------------------------------------------------------------------------------
+
+Formatting Notes
+  All extraneous spaces are to be removed.
+  Numbers
+    Always increase or decrease.
+    All numbers are noted as either positive (+#) or negative (-#)
+      Except when number may not be/is never negative
+    all interger changes use "receive"
+    "lose" is only used to refer to numbers which are part of a pool
+    Penalties increase negatively
+    #:# represents a pool, current number, followed by max
+    #/# represents a fraction (not normally used)
+    #-# represents a range of positive-only numbers
+  Actors
+    second consecutive mention is a pronoun
+    gender neutral, impoersonal pornouns only (they, them, their)
+    objects use objective pronouns (it, it's)
+  Equations
+    All equations take the same form
+    (<result>=<positive variables><negative variables>)
+      Variables must always be in order.
+      Die Static# DC Attack Defense BAB BDB BMB STR CON AGI DEX WIS INT CHA FORT REF WILL
+    In the case of items mentioned, use <result> (=<positive variables><negative variables>)
+-----------------------------------------------------------------------------------------
+
+Rules Form
+All rules are stated in one of the following forms.
+
+Delcarative Form
+  For declaration/stating rules as a basis for further context. Almost always requires further lines for clarification.
+<actor> |may| <effect>.
+
+Responsive Form
+  For items which directly respond to an effect.
+<cause>, |then| |<actor>| |may| <effect>.
+
+Explanatory Form
+  For items which are contingent upon something.
+<actor> |may| <effect>, <cause>.
+-----------------------------------------------------------------------------------------
+
+Actors
+  Unless otherwise noted, an actor must be noted as the following.
+  
+  actor - general term, only use if explicitly needed.
+  object - any non-creature actor, only use if explicitly needed.
+  creature - any non-object actor, use by default.
+  target - any actor subject to the mentioned action.
+  ally - any creature elected by the primary actor as an ally. Must be visible.
+-----------------------------------------------------------------------------------------
+
+Effects
+  {receive/lose} |a/an| |additional| |<number>| <item>
+  move |a/an| |<actor>| <number>sq
+  make|s| |a/an| |opposed| <attribute> {Roll/Check/Save}|s|
+  -----------------------------------------------------------------------------------------
+  
+Causes
+  for every |<number>| <item>
+  for ever |Success/Failure| Step |beyond the first|
+  {as part of/in place of/ in response to} |a/an| |standard| <action>
+  if |a/an| <action> {succeeds/fails} |in <action>|
+  to |a/an| <action>
+  is defined as <definition>
+-----------------------------------------------------------------------------------------
+
+Subclauses
+  {+/-}[<penalty type>] to <item>|,<item>||,||and <item>|
+  this |Bonus/Penalty/effect| doubles
+  , opposed by |the/a/an| <actor>'s <attribute> {Roll/Check/Save/Score}
+  against |the/a/an| |<actor>'s| |<attribute>| {Score/DC}
+  <condition> Condition |(<DC Equation>)|
+  (<equation>)
+  
+  
