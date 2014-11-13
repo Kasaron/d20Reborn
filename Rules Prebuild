@@ -1,0 +1,271 @@
+	Dice
+		Dice are a key mechanic of d20 Reborn.
+		All dice are noted as #d#, where the first # is the amount of dice, and the second is the number of faces on each individual die.
+	Actions
+		An action is defined as anything which requires skill and/or effort to complete.
+	Difficulty Class
+		All actions of sufficient difficulty have a corresponding Difficulty Class.
+		A Difficulty Class is defined as a numerical representation of the relative difficulty of an action.
+	Rolls
+		All actions which have a Difficulty Class require a Roll to accomplish.
+		A Roll is 1d20, plus any relevant modifiers.
+		If the result of a Roll is equal to or greater than the DC of the action, the action succeeds.
+		For every 5 that the Roll beats the DC by, the action receives a Success Step.
+		If the result of the Roll is less than the DC of the action, the action fails.
+		For every 5 that the Roll fails the DC by, the action receives a Failure Step.
+		Opposed Rolls
+			Some Rolls do not use DCs, but instead are opposed by another Roll.
+			In this case, whichever of the opposed rolls is higher, succeeds.
+			In the case of a tie, the one with the highest summed modifiers succeeds.
+	Bonuses
+		Bonuses are defined as any temporary positive modifiers to a Roll.
+		Bonuses are noted as +#[Type].
+		The Bonus Type determines the effective source or cause of the Bonus.
+		Unless otherwise explicitly noted, Bonuses are only for the single instance or action mentioned.
+		Unless otherwise explicitly noted, Bonuses of the same type do not stack.
+	Penalties
+		Penalties are defined as any temporary negative modifiers to a Roll.
+		Penalties are noted as +#[Type].
+		The Penalty Type determines the effective source or cause of the Penalty.
+		Unless otherwise explicitly noted, Penalties are only for the single instance or action mentioned.
+		Unless otherwise explicitly noted, Penalties of the same type do stack.
+	Time
+		1 round is approximately 1 second of in game time.
+		It is not necessary (or advisable) to keep track of rounds when not explicitly necessary for determining order and timing of actions.
+		Conflicted Actions
+			In the case of two or more actions which are contradictory or in conflict, order is determined by opposed Reflex Rolls.
+			The best way to handle order of conflicted actions is to have the players declare their actions in order from lowest roll to highest, then resolve the actions from highest to lowest.
+			If an action can no longer occur because of the result of a conflicted action Roll, the action continues, and automatically fails.
+			For example, if a creature attempts to hit a target, but the target moves out of the way, the attack action still happens, but the creature automatically misses.
+			For actions which cannot necessarily or logically fail, the action continues until it cannot, then stops.
+			For example, if two creatures attempt to occupy the same space, the failed opposed roll would result in the creature stopping next to the square it intended to end in.
+		Interval
+			Actions often have a cool-down period, which represents a creature needing time to ready the action again.
+			This Interval is noted as #s, where # is the number of Rounds the action is unavailable for, starting the Round after the action is completed.
+			In the case of failed actions, the Interval still occurs, but begins the Round after the action fails.
+	Distance
+		All distances are noted in squares.
+		1sq is 1 meter (or approximately 1 yard).
+	Movement
+		A creature has a base movement speed of 3sq/s.
+		Base movement speed assumes, flat, level, solid, dry ground.
+		For every +/-2 Agility a creature has, they receive an additional +/-1[Physical] to Movement Speed.
+		A creature may attempt to perform actions while moving.
+		For every 1sq a creature moves, they receive a a -2[Competence] to all other actions, except Defense.
+		Sprinting
+			If a creature has moved their full Movement Speed in the last Round, they may Sprint this Round.
+			When Sprinting, a creature doubles their Movement Speed.
+			A Sprinting creature may only turn 45 degrees per round, and receives +2[Physical] to Defense against Ranged Attacks.
+			A Sprinting creature loses 1 Stamina per round spent Sprinting.
+	Range
+		Most actions have a distance which they are effective at.
+		Distance is separated into Ranged and Melee distances.
+		Distance is always noted in squares.
+		Ranged distance is more free-form; often without a set limit.
+		Ranged distance is always noted with the maximum distance first, followed by the minimum distance; #-#.
+		The maximum Ranged distance is the furthest the action can be taken, without penalty.
+		The maximum Ranged distance is also the interval at which penalty is accrued.
+		The minimum Ranged distance is the nearest the action can be taken, without penalty.
+		Ranged actions beyond the maximum distance receive a -1[Competence], this Penalty doubles for every maximum Ranged distance between the target and the creature.
+		Ranged actions within the minimum distance receive a -4[Competence].
+		Ranged attacks receive this Penalty on both Attack and Threat.
+		Melee distance is a strict range which the action can act in. 
+		Melee distance is always noted in parenthesis, with the maximum distance first, followed by the minimum distance; (#-#)
+		The maximum Melee distance is the furthest an action can be taken.
+		The minimum Melee distance is the nearest the action can be taken.
+	Vision
+		Line of Sight
+			Line of Sight is a line which can be drawn between actor and target that is not interrupted by any significant visual obstacle.
+				Concealment is a partial impediment to Line of Sight.
+				Concealment provides a bonus to Defense, based upon how much of the target is obscured.
+				Light Cover is when approximately 25% of the target's vital areas are obscured.
+				Medium Cover is when approximately 50% of the target's vital areas are obscured.
+				Full Cover is when approximately 75% of the target's vital areas are obscured.
+				Obscured is when the target cannot be seen.
+		Line Of Effect
+			Line of Effect is a line which can be drawn between actor and target that is not interrupted by any significant physical obstacle.
+			Cover is a partial impediment to Line of Effect.
+	Actors
+		Creature
+			Attributes
+				Strength
+				Constitution
+				Agility
+				Dexterity
+				Wisdom
+				Intellect
+				Charisma
+			Saves
+				Fortitude
+				Reflex
+				Will
+			Secondary Attributes
+				Health
+					Injury
+						Any action which has a significant chance of causing a Wound, has a Threat DC.
+						A Wound is defined as any injury which is severe enough to require immediate and possibly long term medical attention to heal.
+						To resist a Threat, a creature makes a Fortitude Save against the Threat DC.
+						If the Save fails, the creature receives 1 Wound, and receives an additional 1 Wound for every Failure Step.
+						For every Wound received greater than their Constitution Score, a creature receives -1[Physical] to all Rolls.
+						If a creature receives Wounds equal to their Health, they receive Dying(1) Condition.
+					Dying
+						Chunky Salsa Rule
+							If a creature receives Wounds equal to their Health as the result of a single Threat, the creature makes a Fortitude Save against the amount they failed the Threat DC by.
+							If the creature Fails the Fortitude Save, they are immediately killed.
+						Condition
+							Dying is a serious condition in which a creature's life is threatened by severe injury.
+							A dying creature makes a Fortitude Save (DC=5+Wounds), if the Fortitude Save fails, the creature receives 1 Wound.
+							The creature receives an additional 1 Wound for every Failure Step.
+							A dying creature makes a Fortitude Save (DC=10+Wounds), if the Fortitude Save fails, the creature falls unconscious.
+						If a creature receives Wounds equal to double their Health, they die.
+					Healing
+						A creature may attempt to heal Wounds by resting, by not perform any strenuous actions (DC=14+Relevant Attribute) for 24 hours.
+						For every 24 hours of rest, a creature may make a Fortitude Save (DC=14+Wounds).
+						If the Fortitude Save Succeeds, the creature loses 1 Wound.
+						The creature loses an additional 1 Wound for every Success Step.
+				Mana
+					Mana represents a creature's innate ability to control and direct the energy within the Nether.
+					A creature's Mana Pool is the current amount of Mana a creature possesses.
+					A creature' Mana Cap is the maximum amount of Mana a creature can have in their Mana Pool without penalty.
+					For most creatures, (Mana Cap=INT+Base Mana Bonus).
+					Recovering Mana
+						Every hour, a creature may make a Will Save (DC=14+Mana Pool-Mana Cap).
+						If this Will Save succeeds, the creature regains 1 Mana.
+						For every success step, the creature gains 1 additional Mana.
+						A creature may make this Will Save whether conscious or not.
+					If a creature's Mana Pool is greater than their Mana Cap, they receive a -1 [Magic] to Will Saves for every point above their Mana Cap.
+					Using Mana
+						All Mana-dependent actions have a Mana DC.
+						To take an action which requires Mana, a creature makes a Mana Roll (=1d20+Mana Pool), versus the Mana DC.
+						If the Roll succeeds, the action succeeds, and the creature loses 1 point from their Mana Pool.
+						If the Roll has at least 1 Success Step, the creature does not lose any points from their Mana Pool.
+						If the Roll fails, the action fails, and the creature loses 1 point from their Mana Pool.
+						For every Failure Step, the creature loses an additional point of Mana.
+						If a creature has no Mana in their Mana Pool, they cannot use Mana-dependent actions.
+				Stamina
+			Other
+				Size
+			Skills
+				Academic
+				Intuitive
+				Physical
+	Combat
+		Attacking
+			Attack Roll
+				Base Attack Bonus
+				
+			Threat DC
+			Interval
+			Wielding
+			Minimum Strength
+			
+		Defending
+			
+		Combat Advantage
+			Closing Squares
+
+
+
+
+
+
+Line of Effect is a line which can be drawn between actor and target that is not interrupted by any significant physical obstacle.
+Cover is a partial impediment to Line of Effect.
+Cover provides a bonus to Resistance, based upon the material.
+
+Line of Sight is a line which can be drawn between actor and target that is not interrupted by any significant visual obstacle.
+Concealment is a partial impediment to Line of Sight.
+Concealment provides a bonus to Defense, based upon how much of the target is obscured.
+Light Cover is when approximately 25% of the target's vital areas are obscured.
+Medium Cover is when approximately 50% of the target's vital areas are obscured.
+Full Cover is when approximately 75% of the target's vital areas are obscured.
+Obscured is when the target cannot be seen.
+
+
+
+Sidebar; Defense and Resistance
+Defense, in Reborn is the ability of a creature to actively dodge, deflect or avoid damage, and is opposed by attack, which is a creatures effective accuracy. 
+Resistance, in contrast, is the ability of a creature to withstand damage without significant injury, and is opposed by Threat.
+An attack which hits, but which is Resisted, does in fact strike a target, and may even cause some superficial injury, but not enough to be considered a Wound.
+A Wound is only taken when an injury is significant enough to normally necessitate immediate medical attention, and long term medical care to heal. 
+Creatures with more Wounds can withstand more severe injuries and disruptions to their body without dying, whereas creatures with better Resistance avoid severe injury altogether through tough skin, armor plating or the like. 
+
+
+
+
+;Fundamental Rules
+An action   is defined as anything which requires skill or effort to complete. 
+All actions have a Difficulty Class.
+A Difficulty Class   is defined as a number representing the relative difficulty of an action.
+To perform an action, make a Roll against the Difficulty Class of the action.
+To make a Roll, a player rolls 1d20 and adds any relevant modifiers.
+If the Roll is equal to or greater than the Difficulty Class, the action succeeds.
+For every 5 that the Roll succeeds by, the Roll receives 1 Success Step.
+If the Roll is less than the Difficulty Class, the action fails.
+For every 5 that the Roll fails by, the Roll receives 1 Failure Step.
+Some actions require an opposed Roll.
+In the case of an opposed Roll, the highest roll is the one who succeeds. 
+In the event of a tie, the person with the highest total modifiers succeeds.
+
+;Distance
+All distances in game are measured in Squares.
+1 Square is 1 meter (or approximately 1 yard).
+Squares are noted as #sq.
+
+;Time
+1 round is defined as 1 second of in game time.
+All actions in a round are simultaneous, except when actions conflict.
+When actions conflict, the creatures make an opposed Reflex Roll.
+The winner of the opposed Roll make take their at any time during the round, relative to the loser's action.
+In the event of multiple conflicted actions, the order is determined by a single opposed Reflex Roll.
+The best way to handle order of conflicted actions is to have the players declare their actions in order from lowest roll to highest, then resolve from highest to lowest.
+
+;Skills
+To attempt a Skill-based action, a creature makes a Skill Roll.
+The DC is determined by the action taken, and the situation it is taken in.
+
+;Crafting
+V=(S*(P+M)*T)/R
+-5 to Check for first time making item.
+(Time in Hours=(64*(Cost in Denarit-Materials Cost))/(Skill Check))
+
+;Conditions
+Conditions are short-term effects placed upon creatures.
+
+To resist receiving a Condition, a creature makes an appropriate Save, opposed by the DC of the ability inflicting the Condition.
+If the Save succeeds, the Condition is not inflicted.
+If the Save fails, the creature receives +1p of the Condition.
+For every Failure Step, the creature receives an additional +1p of the Condition.
+A creature may attempt to overcome an inflicted Condition.
+To overcome a Condition, a creature makes an appropriate Save, (DC = Initial DC + 5).
+When a creature overcomes a Condition, the +p is decreaced by 1.
+The +p additionally is decreased by 1 for every Success Step.
+
+To resist a Threat, a creature makes a Fortitude Save, (DC = Threat).
+If the Save fails, the creature receives 1 Wound, and receives an additional 1 Wound for every Failure Step.
+For every Wound received greater than their Constitution Score, a creature receives -1[Physical] to all Rolls.
+If a creature receives Wounds equal to their Health, they receive Dying(1) Condition.
+
+To Attack, a creature makes an Attack Roll, opposed by the target's Passive Defense Score.
+To Defend, a creature makes a Defense Roll, opposed by the target's Attack Roll.
+If the Defense Roll succeeds, the Attack fails.
+If the Defense Roll fails, the Attack hits, even if it would otherwise miss due to Passive Defense.
+
+When wielding a 1.5H or 2H Attack with 2 hands, a character receives a +1[Physical] to Strength for every +2 points of Strength they possess (minimum 1).
+When wielding a 1.5H or 2H Attack with 2 hands, a character receives a +1[Physical] to Dexterity for every +2 points of Dexterity they possess (minimum 1).
+Both of these Bonuses only effect use of the Attack being wielded.
+When wielding a 2H Attack with 1 hand, a character receives a -4[Physical] to Strength.
+When wielding a 2H Attack with 1 hand, a character receives a -4[Physical] to Dexterity.
+Both of these Penalties only effect use of the Attack being wielded.
+
+Most attacks have a Minimum Strength requirement to utilize, without penalty.
+When a creature's Strength is less than the Minimum Strength of an Attack, the creature receives a -1[Physical] to Attack, Threat, and Interval on that Attack.
+This Penalty doubles for every additional point of Strength below the Minimum.
+
+
+Grapple is a 1.5H[Unarmed] Melee Attack, with a Range of (0).
+In place of doing damage, Grapple requires an opposed Grapple Check (=1d20+BAB+STR).
+If the attacker succeeds, the Grapple inflicts an additional Grappled(+1) Condition.
+For every Success Step, the Grapple inflicts an additional Grappled(+1) Condition.
+For every Failure Step, the Grapple inflicts an additional Grappled(-1) Condition.
+
