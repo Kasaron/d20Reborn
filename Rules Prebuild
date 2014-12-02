@@ -96,12 +96,19 @@ Small Numbers. Gone are triple digit health points and crazy Score/Mod sillyness
 		Creature
 			Attributes
 				Strength
+					Strength is defined as a creature's ability to physically move and effect the world around them.
 				Constitution
+					Constitution is defined as a creature's ability to resist injury and other changes to homeostasis.
 				Agility
+					Agility us defined as a creature's ability to move themselves through space.
 				Dexterity
+					Dexterity is defined as a creature's fine motor control, and ability to put such control into place under duress.
 				Wisdom
+					Wisdom is defined as a creature's mental discipline and awareness, both on the smaller and big-picture.
 				Intellect
+					Intellect us defined as a creature's ability to learn, recall and synthesize information and knowledge.
 				Charisma
+					Charisma is defined as a creature's ability to change how others perceive it.
 			Saves
 				Fortitude
 				Reflex
