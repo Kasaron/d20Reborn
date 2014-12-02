@@ -95,6 +95,11 @@ Small Numbers. Gone are triple digit health points and crazy Score/Mod sillyness
 	Actors
 		Creature
 			Attributes
+				A "0" score is average for a person of average health, experience, education and training.
+				A "+5" score is the pinnacle of acheivement, beyond this is impossible to acheive naturally.
+				A "-5" is a often-fatal disability/deficit, and represents a total lack of ability.
+				A "-3" represents a severe deficit or defect that prevents or at least hinders normal life.
+				
 				Strength
 					Strength is defined as a creature's ability to physically move and effect the world around them.
 				Constitution
