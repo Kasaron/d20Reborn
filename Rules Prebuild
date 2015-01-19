@@ -162,6 +162,9 @@ Small Numbers. Gone are triple digit health points and crazy Score/Mod sillyness
 						For every Failure Step, the creature loses an additional point of Mana.
 						If a creature has no Mana in their Mana Pool, they cannot use Mana-dependent actions.
 				Stamina
+					Stamina is a measure of a creature's ability to exert itself over time.
+					(Stamina=Current Health*2)
+					
 			Other
 				Size
 			Skills
