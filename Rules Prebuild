@@ -4,6 +4,9 @@ Tighter, more responsive distance and timing. Smaller time and distance steps me
 Minimal-to-no "caveat rules". With reborn, what you see is what you get. There are rarely, if ever, "punitive" rules (defensive casting, etc), or caveat rules (attacks of opportuniy) which act as a nebulous "gotchya." Consistency is the key.
 Injuries Matter. Imagine fighting with a sizable sword wound in your arm. Willing to bet that you can hit as hard, think as clearly, or hell, cast spells with something like that? Not in reborn; but the rule works unilaterally. Faced with a horde? Softening them up with traps, fire, or even ranged pot shots doesn't just shave off health, it shaves off their ability to hurt.
 Small Numbers. Gone are triple digit health points and crazy Score/Mod sillyness. Numbers are kept small, so every bonus you get is worth something, and every hit you take is one you'll feel in the morning. 
+(Almost) No immunities. Unless it's something a creature or object literally cannot be effected by, they aren't immune. Yes, that means fire-based cretures can be burned to death; but good luck doing so.
+Magic that works. Vancian magic can take a long walk off a short peir. Magic works, both in combat, and in-universe, and doesn't break gameplay, economies, or basic logic, without being neutered to the point of uselessness.
+Cross-classing doesnt suck. Every class gains abilities and traits which are releveant at almost every level, and non-magic and non-martial classes still gain a (often small) amount of power in those aspects.
 
 	Dice
 		Dice are a key mechanic of d20 Reborn.
@@ -83,15 +86,16 @@ Small Numbers. Gone are triple digit health points and crazy Score/Mod sillyness
 	Vision
 		Line of Sight
 			Line of Sight is a line which can be drawn between actor and target that is not interrupted by any significant visual obstacle.
-				Concealment is a partial impediment to Line of Sight.
-				Concealment provides a bonus to Defense, based upon how much of the target is obscured.
-				Light Cover is when approximately 25% of the target's vital areas are obscured.
-				Medium Cover is when approximately 50% of the target's vital areas are obscured.
-				Full Cover is when approximately 75% of the target's vital areas are obscured.
-				Obscured is when the target cannot be seen.
+			Concealment is a partial impediment to Line of Sight.
+			Concealment provides a bonus to Defense, based upon how much of the target is obscured.
+			Light Cover is when approximately 25% of the target's vital areas are obscured.
+			Medium Cover is when approximately 50% of the target's vital areas are obscured.
+			Full Cover is when approximately 75% of the target's vital areas are obscured.
+			Obscured is when the target is completely obscured by an object.
 		Line Of Effect
 			Line of Effect is a line which can be drawn between actor and target that is not interrupted by any significant physical obstacle.
-			Cover is a partial impediment to Line of Effect.
+			Cover is a significant or complete impediment to Line of Effect.
+			Cover provides a bonus to Resistance, based on how difficult the Cover is to penetrate.
 	Actors
 		Creature
 			Attributes
@@ -120,6 +124,7 @@ Small Numbers. Gone are triple digit health points and crazy Score/Mod sillyness
 				Will
 			Secondary Attributes
 				Health
+					(Health=CON+5)
 					Injury
 						Any action which has a significant chance of causing a Wound, has a Threat DC.
 						A Wound is defined as any injury which is severe enough to require immediate and possibly long term medical attention to heal.
