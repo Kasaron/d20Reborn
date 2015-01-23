@@ -124,6 +124,7 @@ Cross-classing doesnt suck. Every class gains abilities and traits which are rel
 				Will
 			Secondary Attributes
 				Health
+					Health is defined as a creature's ability to survive significant changes in homeostasis without death.
 					(Health=CON+5)
 					Injury
 						Any action which has a significant chance of causing a Wound, has a Threat DC.
@@ -210,7 +211,7 @@ Obscured is when the target cannot be seen.
 
 
 
-Sidebar; Defense and Resistance
+Sidebar; Health, Defense, and Resistance
 Defense, in Reborn is the ability of a creature to actively dodge, deflect or avoid damage, and is opposed by attack, which is a creatures effective accuracy. 
 Resistance, in contrast, is the ability of a creature to withstand damage without significant injury, and is opposed by Threat.
 An attack which hits, but which is Resisted, does in fact strike a target, and may even cause some superficial injury, but not enough to be considered a Wound.
