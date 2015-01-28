@@ -304,3 +304,23 @@ only can give +1 to each stat per level
 BAB, BDB, BMB, Feat, Fort, Ref, Will, Skill
 
 
+Casting
+	To make a Spell, a creature combines Spell Words.
+	A creature may cast a Spell using any Spell Words they know.
+	All Spells have exactly 1 Form Spell Word, and at least 1 Effect Spell Word.
+	Form words determine how a Spell activates.
+	Effect words determine what happens when a Spell is activated.
+	A creature may add Spell Words to a Spell, up to a maximum equal to their Mana Score.
+	To cast a Spell, a creature makes a Mana Roll, opposed by the Spell's Mana DC (Mana DC = 10 + Sum of Spell Word DC's)
+	Casting Unsafely
+		A creature may cast unsafely, harming themselves in the process.
+		To cast unsafely, a creature makes a Mana Roll, against the Spell's Mana DC.
+		When casting unsafely, a creature receives 1 Wound.
+		This effect doubles for every Failure Step.
+		This is considered to be a single Threat, for purposes of massive damage (DC = Spell's Mana DC).
+		If the Mana Roll succeeds, the creature loses 1 Mana.
+		If the Mana Roll fails, the creature loses 2 Mana.
+		The creature loses an additonal 1 Mana for every Failure Step.
+		If the creature loses all their Mana in this way, the Spell does not cast.
+		If the creature dies, the Spell may still cast.
+		
