@@ -1,0 +1,10 @@
+A creature may cast unsafely, harming themselves in the process.
+To cast unsafely, a creature makes a Mana Roll, against the Spell's Mana DC.
+When casting unsafely, a creature receives 1 Wound.
+This effect doubles for every Failure Step.
+This is considered to be a single Threat, for purposes of massive damage (DC = Spell's Mana DC).
+If the Mana Roll succeeds, the creature loses 1 Mana.
+If the Mana Roll fails, the creature loses 2 Mana.
+The creature loses an additonal 1 Mana for every Failure Step.
+If the creature loses all their Mana in this way, the Spell does not cast.
+If the creature dies, the Spell may still cast.
