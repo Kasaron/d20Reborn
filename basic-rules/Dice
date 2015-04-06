@@ -1,1 +1,4 @@
-Dice
+Dice are the basis of almost every action in d20Reborn.
+Dice are noted as #d#; there the first # is the amount of dice to be rolled, and the second # is the number of sides on the dice.
+There are 7 different kinds of dice used in d20Reborn; d4, d6, d8, d10, d12, d20 and d100.
+d100 is normally 2d10, where one d10 is the tens place, and one d10 is the singles place.
