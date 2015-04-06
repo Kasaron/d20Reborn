@@ -3,4 +3,4 @@ Name: Cone
 Initial DC: +3
 Addt'l DC: x2
 DC Bonus: +1 to Length
-Description: A [Form]Cone Spell appears as a sudden explosion of energy, which emenates in a wide cone, almost instantly from the center of the spell. 
+Description: A [Form]Cone Spell appears as a sudden explosion of energy, which emenates in a wide cone, almost instantly from the center of the spell.  When triggered, the effect emenates from the center point in a 2sq cone. The spell is triggered at the will of the caster. The form of this spell can be intensified, increasing the length of the Cone. To increase the length of the Cone, double the Mana DC of the Spell Word, for every +1sq of length.
