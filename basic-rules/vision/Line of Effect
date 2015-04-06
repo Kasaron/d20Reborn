@@ -1,0 +1,3 @@
+Line of Effect is a line which can be drawn between actor and target that is not interrupted by any significant physical obstacle.
+Cover is a significant or complete impediment to Line of Effect.
+Cover provides a bonus to Resistance, based on how difficult the Cover is to penetrate.
