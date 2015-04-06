@@ -1,0 +1,6 @@
+Type: Effect
+Name: Thundering
+Initial DC: +4
+Addt'l DC: +2
+DC Bonus: +1 to DC
+Description: A [Effect]Thundering Spell creates a sudden, intense boom, which can temporarily deafen.
