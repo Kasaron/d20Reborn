@@ -1,0 +1,3 @@
+Actions often have a cool-down period, which represents a creature needing time to ready the action again.
+This Interval is noted as #s, where # is the number of Rounds the action is unavailable for, starting the Round after the action is completed.
+In the case of failed actions, the Interval still occurs, but begins the Round after the action fails.
