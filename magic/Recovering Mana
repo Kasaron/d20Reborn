@@ -1,0 +1,5 @@
+Every hour, a creature may make a Will Save (DC=14+Mana Pool-Mana Cap).
+If this Will Save succeeds, the creature regains 1 Mana.
+For every success step, the creature gains 1 additional Mana.
+A creature may make this Will Save whether conscious or not.
+If a creature's Mana Pool is greater than their Mana Cap, they receive a -1 [Magic] to Will Saves for every point above their Mana Cap.
