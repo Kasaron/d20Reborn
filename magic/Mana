@@ -1,0 +1,4 @@
+Mana represents a creature's innate ability to control and direct the energy within the Nether.
+A creature's Mana Pool is the current amount of Mana a creature possesses.
+A creature' Mana Cap is the maximum amount of Mana a creature can have in their Mana Pool without penalty.
+For most creatures, (Mana Cap=INT+Base Mana Bonus).
