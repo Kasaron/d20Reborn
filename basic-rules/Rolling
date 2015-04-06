@@ -6,3 +6,6 @@ For every 5 that the DC is exceeded by, the action receives a single Success Ste
 For every 5 that the Dc is failed by, the action receives a single Failure Step.
 When a 20 is rolled on a d20, always consider the roll to be 30. This represents a particularily lucky circumstance.
 When a 1 is rolled on a d20, always consider the roll to be -10. this represents a particularily unlucky circumstance.
+Some actions do not have a Dc, but instead are Opposed Rolls.
+In the case of Opposed Rolls, the highest total Roll succeeds.
+In the case of a tied Opposed Roll, the highest summed modifiers succeeds.
