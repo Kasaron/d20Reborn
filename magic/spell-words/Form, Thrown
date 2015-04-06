@@ -3,4 +3,4 @@ Name: Thrown
 Initial DC: +0
 Addt'l DC: +0
 DC Bonus: N/A
-Description: A [Form]Thrown Spell appears as a fist-sized ball of energy, held in one or both hands. When triggered, the effect emenates from the ball in a roughly 1 meter diameter blast. The spell is triggered on contact with any solid or liquid, except the caster's hands. The Spell is an Attack, Distance 2-1(1-0),  Interval 1s, 1.5-Handed, X Min STR, Close, Thrown.
+Description: A [Form]Thrown Spell appears as a fist-sized ball of energy, held in one or both hands. When triggered, the effect emenates from the ball in a roughly 1 meter diameter blast. The spell is triggered on contact with any solid or liquid, except the caster's hands. The Spell is an Attack, Distance 2-1(1-0),  Interval 1s, 1.5-Handed, -1 Min STR, Close, Thrown.
