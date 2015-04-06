@@ -1,0 +1,7 @@
+All Mana-dependent actions have a Mana DC.
+To take an action which requires Mana, a creature makes a Mana Roll (=1d20+Mana Pool), versus the Mana DC.
+If the Roll succeeds, the action succeeds, and the creature loses 1 point from their Mana Pool.
+If the Roll has at least 1 Success Step, the creature does not lose any points from their Mana Pool.
+If the Roll fails, the action fails, and the creature loses 1 point from their Mana Pool.
+For every Failure Step, the creature loses an additional point of Mana.
+If a creature has no Mana in their Mana Pool, they cannot use Mana-dependent actions.
