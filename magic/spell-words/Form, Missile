@@ -3,4 +3,4 @@ Name: Missile
 Initial DC: +1
 Addt'l DC: +0
 DC Bonus: N/A
-Description: A [Form]Missile Spell appears as a fist-sized bolt of energy, which flies from one or both hands. 
+Description: A [Form]Missile Spell appears as a fist-sized bolt of energy, which flies from one or both hands. When triggered, the effect emenates from the bolt in a roughly 1 meter diameter blast. The spell is triggered on contact with any solid or liquid, except the caster's hands. The Spell is an Attack, Distance 3-1,  Interval 1s, 1.5-Handed, X Min STR, Thrown.
