@@ -1,0 +1,6 @@
+Type: Effect
+Name: Transmute
+Initial DC: +4
+Addt'l DC: +2
+DC Bonus: +1 to Bonus[Magic]
+Description: A [Effect]Transmute Spell shapes materials to the will of the caster.
