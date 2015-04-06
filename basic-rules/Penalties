@@ -1,0 +1,5 @@
+Penalties are defined as any temporary negative modifiers to a Roll.
+Penalties are noted as +#[Type].
+The Penalty Type determines the effective source or cause of the Penalty.
+Unless otherwise explicitly noted, Penalties are only for the single instance or action mentioned.
+Unless otherwise explicitly noted, Penalties of the same type do stack
