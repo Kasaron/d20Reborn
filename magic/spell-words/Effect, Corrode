@@ -3,4 +3,4 @@ Name: Corrode
 Initial DC: +2
 Addt'l DC: +2
 DC Bonus: +1 to Thread Die Size
-Description: A [Effect]Corrode Spell creates a intense, breif corrosive effect.
+Description: A [Effect]Corrode Spell creates a intense, breif corrosive effect. The effect causes a Threat[Corrode], (Threat DC=10+1d6+Casting Stat). The effect of this spell can be intensified, increasing the Threat Dice Size. To increase the Threat Dice Size, add +2 to the Mana DC of the Spell Word, for every Threat Die step.
