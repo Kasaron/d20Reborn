@@ -1,1 +1,5 @@
-Attacking
+Attacks are any action which must physically touch a target to be effective, and require a level of precision or control.
+To Attack, make an Attack Roll against the tagret's Defense Score.
+If the Attack Roll succeeds, the target has been hit.
+If the Attack Roll fails, the Attack has missed.
+If the Attack fails, the Attack action still occurs, but the efect is not applied to the target.
