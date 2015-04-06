@@ -2,5 +2,5 @@ Type: Effect
 Name: Heat
 Initial DC: +2
 Addt'l DC: +2
-DC Bonus: +1 to Thread Die Size
-Description: A [Effect]Heat Spell creates a intense, breif change in temperature.
+DC Bonus: +1 to Threat Die Size
+Description: A [Effect]Heat Spell creates a intense, breif change in temperature. The effect causes a Threat[Heat], (Threat DC=10+1d6+Casting Stat). The effect of this spell can be intensified, increasing the Threat Dice Size. To increase the Threat Dice Size, add +2 to the Mana DC of the Spell Word, for every Threat Die step.
