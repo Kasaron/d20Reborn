@@ -1,0 +1,5 @@
+Type: 
+Name: Studied Skill
+Multiples: 1/Level
+Description: Gain Skill Points=Int
+Prerequisites: Int>0
