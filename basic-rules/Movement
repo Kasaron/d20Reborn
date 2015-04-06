@@ -1,1 +1,5 @@
-Movement
+A creature has a base movement speed of 3sq/s.
+Base movement speed assumes, flat, level, solid, dry ground.
+For every +/-2 Agility a creature has, they receive an additional +/-1[Physical] to Movement Speed.
+A creature may attempt to perform actions while moving.
+For every 1sq a creature moves, they receive a a -2[Competence] to all other actions, except Defense.
