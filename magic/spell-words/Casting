@@ -1,0 +1,7 @@
+To make a Spell, a creature combines Spell Words.
+A creature may cast a Spell using any Spell Words they know.
+All Spells have exactly 1 Form Spell Word, and at least 1 Effect Spell Word.
+Form words determine how a Spell activates.
+Effect words determine what happens when a Spell is activated.
+A creature may add Spell Words to a Spell, up to a maximum equal to their Mana Score.
+To cast a Spell, a creature makes a Mana Roll, opposed by the Spell's Mana DC (Mana DC = 10 + Sum of Spell Word DC's)
