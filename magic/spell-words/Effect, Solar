@@ -1,0 +1,6 @@
+Type: Effect
+Name: Solar
+Initial DC: +4
+Addt'l DC: +2
+DC Bonus: +1 to DC
+Description: A [Effect]Solar Spell creates a intense flash of light which can temporarily blind.
