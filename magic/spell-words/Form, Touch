@@ -3,4 +3,4 @@ Name: Touch
 Initial DC: -2
 Addt'l DC: +0
 DC Bonus: N/A
-Description: A [Form]Touch Spell appears as a glowing aura, enclosing one or both hands. The spell is triggered on contact with any solid or liquid, except the caster's hands. The Spell is an Attack, Distance (1-0),  Interval 1s, 1.5-Handed, X Min STR, Close.
+Description: A [Form]Touch Spell appears as a glowing aura, enclosing one or both hands. When triggered, the effect emenates from the caster's hand in a approximately half a meter long cone or beam. The spell is triggered on contact with any solid or liquid, except the caster's hands. The Spell is an Attack, Distance (1-0),  Interval 1s, 1.5-Handed, X Min STR, Close.
