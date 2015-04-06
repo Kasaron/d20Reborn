@@ -1,6 +1,2 @@
 1 round is approximately 1 second of in game time.
 It is not necessary (or advisable) to keep track of rounds when not explicitly necessary for determining order and timing of actions.
-Interval
-Actions often have a cool-down period, which represents a creature needing time to ready the action again.
-This Interval is noted as #s, where # is the number of Rounds the action is unavailable for, starting the Round after the action is completed.
-In the case of failed actions, the Interval still occurs, but begins the Round after the action fails.
