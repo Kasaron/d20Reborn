@@ -8,6 +8,6 @@ Fortitude; receiving an additional +1 [Level] Bonus. This Bonus stacks.
 Reflex; receiving an additional +1 [Level] Bonus. This Bonus stacks.
 Will; receiving an additional +1 [Level] Bonus. This Bonus stacks.
 Feat; receiving a single Feat which the creature meets the prerequisites of.
-Skills; receiving the creature's Intellect in Skill Points.
+Skills; receiving the creature's Intellect+3 in Skill Points.
 A creature may only spend one point in any one of the above choices, per level.
 A creature receives a bonus feat every odd level (1,3,5,etc).
