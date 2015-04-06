@@ -1,1 +1,15 @@
-Distance
+Most actions have a distance which they are effective at.
+Distance is separated into Ranged and Melee distances.
+Distance is always noted in squares.
+Ranged distance is more free-form; often without a set limit.
+Ranged distance is always noted with the maximum distance first, followed by the minimum distance; #-#.
+The maximum Ranged distance is the furthest the action can be taken, without penalty.
+The maximum Ranged distance is also the interval at which penalty is accrued.
+The minimum Ranged distance is the nearest the action can be taken, without penalty.
+Ranged actions beyond the maximum distance receive a -1[Competence], this Penalty doubles for every maximum Ranged distance between the target and the creature.
+Ranged actions within the minimum distance receive a -4[Competence].
+Ranged attacks receive this Penalty on both Attack and Threat.
+Melee distance is a strict range which the action can act in. 
+Melee distance is always noted in parenthesis, with the maximum distance first, followed by the minimum distance; (#-#)
+The maximum Melee distance is the furthest an action can be taken.
+The minimum Melee distance is the nearest the action can be taken.
