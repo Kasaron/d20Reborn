@@ -1,0 +1,7 @@
+Line of Sight is a line which can be drawn between actor and target that is not interrupted by any significant visual obstacle.
+Concealment is a partial impediment to Line of Sight.
+Concealment provides a bonus to Defense, based upon how much of the target is obscured.
+Light Cover is when approximately 25% of the target's vital areas are obscured.
+Medium Cover is when approximately 50% of the target's vital areas are obscured.
+Full Cover is when approximately 75% of the target's vital areas are obscured.
+Obscured is when the target is completely obscured by an object.
