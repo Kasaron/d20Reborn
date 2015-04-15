@@ -1,0 +1,5 @@
+Name: Linguistics
+Attribute: Int
+Description: Linguistics allows a creature to speak and understand a language, decipher meaning, and better leverage social skills.
+Action1: Speak a Language
+Action1 Description: To speak a language fluently, a creature 
