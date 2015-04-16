@@ -1,0 +1,5 @@
+Name: Swim
+Attribute: Con
+Description: Swim allows a creature to move through water and other similar liquids, in all 3 dimensions.
+Action1:
+Action1 Description:
