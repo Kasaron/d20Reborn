@@ -1,0 +1,24 @@
+Health is defined as a creature's ability to survive significant changes in homeostasis without death.
+(Health=CON+5)
+Injury
+Any action which has a significant chance of causing a Wound, has a Threat DC.
+A Wound is defined as any injury which is severe enough to require immediate and possibly long term medical attention to heal.
+To resist a Threat, a creature makes a Fortitude Save against the Threat DC.
+If the Save fails, the creature receives 1 Wound, and receives an additional 1 Wound for every Failure Step.
+For every Wound received greater than their Constitution Score, a creature receives -1[Physical] to all Rolls.
+If a creature receives Wounds equal to their Health, they receive Dying(1) Condition.
+Dying
+Chunky Salsa Rule
+If a creature receives Wounds equal to their Health as the result of a single Threat, the creature makes a Fortitude Save against the amount they failed the Threat DC by.
+If the creature Fails the Fortitude Save, they are immediately killed.
+Condition
+Dying is a serious condition in which a creature's life is threatened by severe injury.
+A dying creature makes a Fortitude Save (DC=5+Wounds), if the Fortitude Save fails, the creature receives 1 Wound.
+The creature receives an additional 1 Wound for every Failure Step.
+A dying creature makes a Fortitude Save (DC=10+Wounds), if the Fortitude Save fails, the creature falls unconscious.
+If a creature receives Wounds equal to double their Health, they die.
+Healing
+A creature may attempt to heal Wounds by resting, by not perform any strenuous actions (DC=14+Relevant Attribute) for 24 hours.
+For every 24 hours of rest, a creature may make a Fortitude Save (DC=14+Wounds).
+If the Fortitude Save Succeeds, the creature loses 1 Wound.
+The creature loses an additional 1 Wound for every Success Step.
