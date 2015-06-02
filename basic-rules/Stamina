@@ -1,0 +1,6 @@
+Stamina is a measure of a creature's endurance.
+(Stamina=Current Health*2)
+Stamina is expended when Attacking, Defending, Sprinting, or using the Climb, Traversion, Swim, or Ride skills, ata  rate of 1 point per round.
+After a creature's Stamina hits 0, they receive +1 Exhausted Condition.
+For every 2 negative points of Stamina, they receive an additional +1 Exhausted Condition.
+To regain 1 Stamina Point, a creature must not perform an action that consumes Stamina for 2 rounds.
