@@ -1,3 +1,4 @@
-1 round is approximately 1 second of in game time.
-It is not necessary (or advisable) to keep track of rounds when not explicitly necessary for determining order and timing of actions.
 1 square (or hex) is 1 meter.
+1 round is approximately 1 second of in game time.
+During a round, all actions are considered to be simultaneous, except where such actions conflict (See Conflicted Actions)
+It is not necessary (or advisable) to keep track of rounds when not explicitly necessary for determining order and timing of actions.
