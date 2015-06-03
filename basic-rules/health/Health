@@ -4,12 +4,6 @@ Dying
 Chunky Salsa Rule
 If a creature receives Wounds equal to their Health as the result of a single Threat, the creature makes a Fortitude Save against the amount they failed the Threat DC by.
 If the creature Fails the Fortitude Save, they are immediately killed.
-Condition
-Dying is a serious condition in which a creature's life is threatened by severe injury.
-A dying creature makes a Fortitude Save (DC=5+Wounds), if the Fortitude Save fails, the creature receives 1 Wound.
-The creature receives an additional 1 Wound for every Failure Step.
-A dying creature makes a Fortitude Save (DC=10+Wounds), if the Fortitude Save fails, the creature falls unconscious.
-If a creature receives Wounds equal to double their Health, they die.
 Healing
 A creature may attempt to heal Wounds by resting, by not perform any strenuous actions (DC=14+Relevant Attribute) for 24 hours.
 For every 24 hours of rest, a creature may make a Fortitude Save (DC=14+Wounds).
