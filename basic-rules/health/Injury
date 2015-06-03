@@ -1,1 +1,6 @@
-
+Any action which has a significant chance of causing a Wound, has a Threat DC.
+A Wound is defined as any injury which is severe enough to require immediate and possibly long term medical attention to heal.
+To resist a Threat, a creature makes a Fortitude Save against the Threat DC.
+If the Save fails, the creature receives 1 Wound, and receives an additional 1 Wound for every Failure Step.
+For every Wound received greater than their Constitution Score, a creature receives -1[Physical] to all Rolls.
+If a creature receives Wounds equal to their Health, they receive Dying(1) Condition.
