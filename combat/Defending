@@ -1,4 +1,5 @@
 A creature may Defend against attacks, striking them down or evading them.
+Defending is an action, with an Interval of 1.
 To Defend, a creature makes a Defense Roll, opposed by the attacker's Attack Roll.
 If the Defense Roll succeds, the attack does not hit.
 If the Defense Roll fails, the Attack hits.
