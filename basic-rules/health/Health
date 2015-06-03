@@ -1,6 +1,2 @@
 Health is defined as a creature's ability to survive significant changes in homeostasis without death.
 (Health=CON+5)
-Dying
-Chunky Salsa Rule
-If a creature receives Wounds equal to their Health as the result of a single Threat, the creature makes a Fortitude Save against the amount they failed the Threat DC by.
-If the creature Fails the Fortitude Save, they are immediately killed.
