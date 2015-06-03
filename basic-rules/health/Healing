@@ -1,1 +1,4 @@
-
+A creature may attempt to heal Wounds by resting, by not perform any strenuous actions (DC=14+Relevant Attribute) for 24 hours.
+For every 24 hours of rest, a creature may make a Fortitude Save (DC=14+Wounds).
+If the Fortitude Save Succeeds, the creature loses 1 Wound.
+The creature loses an additional 1 Wound for every Success Step.
