@@ -1,1 +1,3 @@
-
+Attack Score determines a creatures accuracy in combat.
+For Melee Attacks (Attack Score=Base Attack Bonus+Agility)
+For Ranged Attacks (Attack Score=Base Attack Bonus+Dexterity)
