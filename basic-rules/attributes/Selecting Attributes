@@ -1,1 +1,13 @@
-asdfsdf
+At character creation, characters have a 0 in all attributes.
+At character creation, a player receives points which they may spend on improving their attributes.
+Commonly, a player has 6 points to spend, the costs of scores are as follows;
++1 costs 1 Point
++2 costs 2 Points
++3 costs 4 Points
++4 costs 8 Points
++5 costs 16 Points
+Inversely, a player may give a character negative scores in Attributes, this gives them more points to spend on other Attribnutes.
+-1 gives 1 Point
+-2 gives 2 points
+-3 gives 4 Points
+-4 gives 8 Points
